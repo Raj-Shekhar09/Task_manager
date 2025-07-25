@@ -1,0 +1,77 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+}
+.register {
+	width: 350px;
+	margin: 80px auto;
+	padding: 30px;
+	background-color: #ffffff;
+	border-radius: 12px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+  }
+  
+  .register h2 {
+	margin-bottom: 20px;
+	color: black;
+	font-size: 35px;
+  }
+  
+  .register label {
+	display: block;
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	font-weight: 600;
+	color: black;
+  }
+  
+  .register input {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	font-size: 14px;
+  }
+  
+  .register button {
+	width: 100%;
+	padding: 12px;
+	background-color: #520bed;
+	border: none;
+	border-radius: 6px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  .register button:hover {
+	background-color: #218838;
+  }
+  
+  .register div {
+	color: red;
+	margin-bottom: 15px;
+  }
+  
+  .register p {
+	margin-top: 15px;
+	color: #666;
+  }
+  
+  .register a {
+	color: #007bff;
+	text-decoration: none;
+	font-weight: bold;
+  }
+  
+  .register a:hover {
+	text-decoration: underline;
+  }
+  

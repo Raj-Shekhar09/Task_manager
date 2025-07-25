@@ -1,0 +1,87 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+}
+.form {
+	width: 350px;
+	margin: 80px auto;
+	padding: 30px;
+	background-color: #ffffff;
+	border-radius: 12px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+  }
+
+  .form h2 {
+	margin-bottom: 20px;
+	font-size: 35px;
+	height: 2vh;
+	color: black;
+  }
+  .form div b{
+	margin-right: 230px;
+  }
+  .form label {
+	display: block;
+	text-align: left;
+	margin-top: 5px;
+	height: 1.5vh;
+	margin-bottom: 5px;
+	font-weight: 600;
+	color:black;
+  }
+  
+  .form input {
+	width: 100%;
+	height: 3vh;
+	padding: 10px;
+	margin-bottom: 5px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	font-size: 14px;
+  }
+  
+  .form button {
+	width: 100%;
+	padding: 12px;
+	background-color: #3808e5;
+	border: none;
+	border-radius: 6px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  .form button:hover {
+	background-color: #0056b3;
+  }
+  
+  .form div {
+	color: red;
+	margin-bottom: 10px;
+  }
+  
+  /* Style the paragraph with inline link */
+  .form p {
+	margin-top: 15px;
+	color: #666;
+	font-size: 14px;
+  }
+  
+  .form p a {
+	margin-left: 5px;
+	color: #007bff;
+	text-decoration: none;
+	font-weight: bold;
+  }
+  
+  .form p a:hover {
+	text-decoration: underline;
+  }
+  
+
+  

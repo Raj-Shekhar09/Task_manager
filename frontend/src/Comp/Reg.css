@@ -1,0 +1,53 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	outline:none;
+}
+.fcon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #f7f8fa;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .form {
+	background-color: white;
+	padding: 30px;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+	width: 100%;
+	max-width: 400px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+  }
+  
+  .form label {
+	font-weight: bold;
+	margin-bottom: 5px;
+  }
+  
+  .form input {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	font-size: 1rem;
+  }
+  
+  .form button {
+	padding: 10px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	font-size: 1rem;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  .form button:hover {
+	background-color: #43a047;
+  }
+  
